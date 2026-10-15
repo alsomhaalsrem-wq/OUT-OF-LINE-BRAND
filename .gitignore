@@ -1,0 +1,31 @@
+# Local drafts and unused reference material
+/references/
+/app.js
+/brand.css
+/style.css
+/typography.css
+
+# Keep only assets required by the current website
+/assets/*
+!/assets/fonts/
+!/assets/campaign/
+/assets/fonts/*
+!/assets/fonts/cormorant-medium.ttf
+!/assets/fonts/naskh-regular.ttf
+/assets/campaign/*
+!/assets/campaign/*-final.jpg
+!/assets/campaign/*-final-480.jpg
+!/assets/campaign/*-final-800.jpg
+
+# Local tooling and secrets
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+!assets/brand/
+assets/brand/*
+!assets/brand/logo-circle.png
+!assets/brand/logo-signature.png
